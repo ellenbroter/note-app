@@ -24,7 +24,7 @@ body {
   /* don't need to separately bring elements to the center */
   align-items: center;
   padding: 2rem;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Hedvig Letters Sans', sans-serif;
 }
 h1 {
   color: #363062;
@@ -93,12 +93,12 @@ h2 {
 }
 .list-item {
   width: 90%;
-  height: 2rem;
+  height: fit-content;
   margin: 0.313rem auto;
   list-style: none;
   display: flex;
   align-items: center;
-  background-color: #F5E8C7;
+  background-color: #FFFFFF;
   border-radius: 0.5rem;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
 }
