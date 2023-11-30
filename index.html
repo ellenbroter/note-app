@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Note app</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="app-title">Simple note-taking app</h1>
+      <div class="note-taking-container">
+        <form class="register-form-container">
+          <h2 class="form-title center-flex">Keep the track of your notes</h2>
+          <div class="form-input-container center-flex">
+            <input type="text" class="form-input" placeholder="Enter your note"/>
+            <button class="form-submit-button center-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="#f5e8c7" viewBox="0 0 256 256"><path d="M227.31,73.37,182.63,28.68a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31L227.31,96a16,16,0,0,0,0-22.63ZM51.31,160l90.35-90.35,16.68,16.69L68,176.68ZM48,179.31,76.69,208H48Zm48,25.38L79.31,188l90.35-90.35h0l16.68,16.69Z"></path></svg>            </button>
+          </div>
+          <p class="empty-input hide">Please enter a task! &#9888</p>
+        </form>
+        <section class="display-notes-container"></section>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

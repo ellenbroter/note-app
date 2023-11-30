@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #F5E8C7;
+}
+/* helper classes */
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+/* main container */
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* don't need to separately bring elements to the center */
+  align-items: center;
+  padding: 2rem;
+  font-family: "Work Sans", sans-serif;
+}
+h1 {
+  color: #363062;
+}
+h2 {
+  color: #F5E8C7;
+}
+/* input note form */
+.note-taking-container {
+  width: 60%;
+  height: 90%;
+  background-color: #435585;
+  color: #363062;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 35%;
+}
+.form-title {
+  flex-basis: 35%;
+}
+.form-input-container {
+  flex-basis: 45%;
+}
+.display-notes-container {
+  flex-basis: 65%;
+  overflow: auto;
+}
+.form-input {
+  width: 18.75rem;
+  padding: 0.313rem;
+  font-size: 1rem;
+  border-top-left-radius: 0.313rem;
+  border-bottom-left-radius: 0.313rem;
+}
+.form-submit-button {
+  width: 4rem;
+  cursor: pointer;
+  background-color: #818FB4;
+  border-top-right-radius: 0.313rem;
+  border-bottom-right-radius: 0.313rem;
+}
+.form-submit-button:hover {
+  opacity: 0.7;
+  transition: 500ms;
+}
+.form-input,
+.form-submit-button {
+  outline: none;
+  border: none;
+  height: 2rem;
+  font-family: inherit;
+}
+/* Display section */
+.empty-input {
+  flex-basis: 20%;
+  text-align: center;
+  font-weight: bold;
+  color: darkred;
+}
+.list-item {
+  width: 90%;
+  height: 2rem;
+  margin: 0.313rem auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: #F5E8C7;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
